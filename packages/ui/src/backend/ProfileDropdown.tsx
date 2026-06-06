@@ -331,7 +331,7 @@ export function ProfileDropdown({
         aria-expanded={open}
         aria-haspopup="menu"
         data-testid="profile-dropdown-trigger"
-        title={email || t('ui.userMenu.userFallback', 'User')}
+        tooltip={email || t('ui.userMenu.userFallback', 'User')}
       >
         <User className="size-4" />
       </IconButton>
